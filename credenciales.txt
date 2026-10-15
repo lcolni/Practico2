@@ -1,0 +1,14 @@
+PROYECTO LA BIBLIOTECA - INSTRUCCIONES DE ACCESO
+
+1. Base de datos:
+Importar el archivo ubicado en: database/database.sql
+
+2. Credenciales de prueba:
+
+Administrador:
+Email: admin@biblioteca.com
+Contraseña: 123456
+
+Usuario / Lector:
+Email: usuario@biblioteca.com
+Contraseña: 123456

@@ -1,0 +1,40 @@
+@media (max-width: 767.98px) {
+    .sidebar {
+        flex-direction: row !important;
+        width: 100% !important;
+        min-width: 100% !important;
+        height: auto !important;
+        padding: 10px 15px !important;
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+    }
+
+    .sidebar nav {
+        width: auto !important;
+    }
+
+    .sidebar ul {
+        flex-direction: row !important;
+        gap: 15px !important;
+    }
+
+    .main-content {
+        padding: 12px !important;
+    }
+
+    h2.h5 {
+        font-size: 1.05rem !important;
+    }
+
+    .search-box {
+        max-width: 100% !important;
+        margin: 0 !important;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1199.98px) {
+    .sidebar {
+        min-width: 80px;
+    }
+}

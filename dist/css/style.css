@@ -1,0 +1,73 @@
+:root {
+    --bg-main: #111a1e;
+    --bg-sidebar: #162226;
+    --bg-card: #1c2a30;
+    --bg-search: #1c2a30;
+    --accent-gold: #f3ba54;
+    --text-muted: #8a9a86;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body.bg-main {
+    background-color: var(--bg-main) !important;
+    font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+    overflow-x: hidden;
+}
+
+.sidebar {
+    background-color: var(--bg-sidebar);
+    min-width: 70px;
+}
+
+.active-icon {
+    background-color: var(--accent-gold) !important;
+    color: #000 !important;
+    border-radius: 10px;
+}
+
+.bg-search {
+    background-color: var(--bg-search);
+}
+
+.bg-search::placeholder {
+    color: var(--text-muted);
+}
+
+.bg-card {
+    background-color: var(--bg-card);
+}
+
+.cat-card {
+    background-color: var(--bg-card);
+    color: #ffffff;
+    transition: transform 0.2s ease;
+}
+
+.cat-card:hover {
+    transform: translateY(-2px);
+}
+
+.cat-active {
+    background-color: var(--accent-gold) !important;
+}
+
+.bg-gold {
+    background-color: var(--accent-gold) !important;
+}
+
+.bg-avatar {
+    background-color: #d1c4e9;
+}
+
+.card-book img, .card-popular img {
+    width: 100% !important;
+    height: 160px !important;
+    object-fit: cover !important;
+    border-radius: 8px;
+    background-color: #22333b;
+}
